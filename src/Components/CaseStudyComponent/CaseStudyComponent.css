@@ -1,0 +1,75 @@
+.flex-div-container-for-case-study {
+  display: flex;
+  justify-content: center;
+  /* margin: 4em 0; */
+}
+.width-set-case-study-component {
+  width: 75em;
+}
+/* .image-set-case-study-components {
+  width: 100%;
+} */
+.contains-img-and-information-for-component {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.information-for-component {
+  width: 50%;
+  display: grid;
+  /* margin: 5em; */
+  color: white;
+  row-gap: 1.3em;
+  /* color: white; */
+}
+.information-for-component button {
+  border: none;
+  width: 12em;
+  height: 3em;
+  border-radius: 2px;
+}
+.information-for-component p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.information-for-component h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.information-for-component h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+/* Media Screen */
+@media (min-width: 320px) and (max-width: 425px) {
+  .information-for-component {
+    margin: auto;
+    width: auto;
+  }
+  .information-for-component button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 10em;
+  }
+  .information-for-component h1 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .information-for-component h3 {
+    font-size: 14px;
+  }
+  .information-for-component p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

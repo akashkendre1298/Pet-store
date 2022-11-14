@@ -1,0 +1,31 @@
+.main-heading-in-world-explore {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Beau Rivage";
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main-container-for-flex-center-for-exploreworld {
+  display: flex;
+  justify-content: center;
+}
+.exploreworld-wid-for-contain {
+  width: 75em;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .main-heading-in-world-explore {
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 32px;
+    font-family: "Beau Rivage";
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .main-container-for-flex-center-for-exploreworld {
+    margin: 1em;
+  }
+}

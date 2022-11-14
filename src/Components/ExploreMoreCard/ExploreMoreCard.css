@@ -1,0 +1,118 @@
+.main-container-for-explore-more {
+  background-color: rgba(14, 145, 145, 0.144);
+  padding: 42px 1px 75px 0px;
+  display: flex;
+  justify-content: center;
+}
+.bottom-section-about-products-details-explore-more {
+  background-color: white;
+}
+.explore-more-btn {
+  background-color: #124944;
+  color: white;
+  height: 55px;
+  width: 130px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.explore-more-cards-container {
+  border: 12px solid white;
+  display: block;
+}
+
+.heading-text-and-explore-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+}
+/* 
+.heading-in-explore-more {
+} */
+
+.iduldge-in-our-text-heading {
+  font-size: 13px;
+  /* padding: 0 4px; */
+  padding: 16px 4px;
+  font-weight: 500;
+  color: dimgrey;
+}
+
+.sweet-inspiration-text-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'montserrat';
+}
+.cards-for-explore-more-and-read-more-about-us {
+  padding: 1rem 1rem 1rem 0rem;
+  display: flex;
+  column-gap: 2rem;
+}
+/* 
+.image-for-save-the-product {
+  float: right;
+} */
+
+.blog-text-and-image-for-save-the-product {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+.blog-text-and-image-for-save-the-product p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.explore-product-cards-container {
+  border-radius: 7px;
+}
+
+.explore-more-card-for-selection {
+  height: 272px;
+  width: 250px;
+  display: block;
+  padding: 11px;
+}
+
+.pet-treats-text-for-selection {
+  padding: 12px 0;
+  font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .explore-more-card-for-selection {
+    border: 8px solid white;
+    height: 290px;
+    /* width: 274px; */
+    width: 100%;
+    display: block;
+  }
+  .heading-text-and-explore-button {
+    display: block;
+    text-align: center;
+  }
+  .button-for-explore-more-in-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .explore-more-btn {
+    height: 41px;
+    width: 115px;
+  }
+  .pet-treats-text-for-selection {
+    padding: 12px 8px;
+    font-size: 20px;
+  }
+  .cards-for-explore-more-and-read-more-about-us {
+    padding: 0;
+  }
+  .main-container-for-explore-more {
+    background-color: rgba(14, 145, 145, 0.144);
+    /* padding: 42px 1px 75px 0px; */
+    display: flex;
+    justify-content: center;
+    /* margin: 1rem; */
+  }
+}

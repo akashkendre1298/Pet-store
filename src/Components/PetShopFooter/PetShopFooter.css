@@ -1,0 +1,235 @@
+.outer-div-for-width {
+  width: 100%;
+  background-color: #bbdfe7;
+}
+
+.pet-shop-footer {
+  display: flex;
+  justify-content: center;
+  padding: 160px 50px 0 33px;
+  height: 620px;
+  background-color: #b9dee6d7;
+  /* width: 75em; */
+  gap: 78px;
+}
+.main-div-for-flex-center {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+  /* background-color: #b9dee6d7; */
+}
+.footer-div-for-widith {
+  width: 100%;
+}
+.call-img-in-footer {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+}
+.email-img-in-footer {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+}
+.apple-logo-in-btn {
+  height: 25px;
+  width: 18px;
+  color: white;
+  padding-top: 5px;
+}
+.apple-store-btn {
+  /* color: white; */
+  border-radius: 5px;
+  font-size: 10px;
+  display: flex;
+  margin-top: 5px;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer-btn-group {
+  display: flex;
+  gap: 10px;
+}
+.footer-first-column {
+  line-height: 2.1rem;
+}
+.footer-second-col {
+  line-height: 3.5rem;
+}
+.footer-third-col {
+  line-height: 3.5rem;
+}
+
+.footer-fourth-col {
+  line-height: 3.5rem;
+}
+.social-media-icons-in-footer {
+  display: flex;
+  gap: 25px;
+  margin: 10px 0 0 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.input-email-in-footer {
+  margin: 36px 0 0 0;
+  height: 34px;
+  border-radius: 5px;
+  width: 220px;
+  border: none;
+  padding: 11px;
+}
+.footer-icon-img {
+  height: 1rem;
+  width: 1rem;
+}
+.social-media-rounded-div {
+  width: 1.5rem;
+  height: 1.5rem;
+  /* border: 1px solid rgb(243, 242, 242); */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: white;
+  cursor: pointer;
+  /* box-shadow: 0 0 3px 2px; */
+}
+/* .social-media-rounded-div :hover {
+  border-radius: 300px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(18, 220, 220, 0.333);
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+.icon-in-search {
+  height: 1.3rem;
+  width: 1.3rem;
+  margin: -30px 0px 24px 194px;
+  cursor: pointer;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  /* height: 850px; */
+  margin: 0 0 -80px 0;
+}
+.call-section-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  row-gap: 10px;
+}
+.email-section-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.all-rights-reserved-section {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 10rem; */
+  align-items: center;
+}
+.privacy-services-terms-conditions {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+.container-after-foot-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.width-for-container-after-footer {
+  width: 75em;
+}
+.all-rights-reserved-section section p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.privacy-services-terms-conditions section p {
+  color: rgb(155, 155, 155);
+  /* font-size: 14px; */
+  font-weight: 500;
+}
+.footer-img-respo {
+  width: 1000px;
+  height: 500px;
+}
+@media (min-width: 320px) and (max-width: 420px) {
+  .footer-div-for-widith {
+    width: 100%;
+  }
+  .pet-shop-footer {
+    display: block;
+    padding: 160px 0 0 10px;
+    height: 100%;
+    background-color: #b9dee6d7;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-first-column {
+    line-height: 2rem;
+  }
+  .footer-second-col {
+    line-height: 2rem;
+  }
+  .footer-third-col {
+    line-height: 2rem;
+  }
+
+  .footer-fourth-col {
+    line-height: 2rem;
+  }
+  .call-section-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .email-section-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  .footer-btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .social-media-icons-in-footer {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    justify-content: center;
+  }
+  .all-rights-reserved-section {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    margin: 1rem;
+  }
+  .all-rights-reserved-section section p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .footer-img-respo {
+    width: 100%;
+    height: 300px;
+  }
+  .container-after-foot-section {
+    margin: 0;
+  }
+}

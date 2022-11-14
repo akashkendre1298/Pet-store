@@ -1,0 +1,108 @@
+.flex-div-for-review {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 100px 0;
+}
+
+.widith-div-review-rewards {
+  width: 75em;
+}
+
+.review-heading {
+  color: gray;
+  font-size: 12px;
+  /* padding: 20px 0 0 85px; */
+}
+.review-desc {
+  /* padding: 0 0 0 85px; */
+  gap: 20rem;
+}
+.review-img {
+  height: 40px;
+  width: 40px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  margin: 13px 0 10px 0;
+}
+
+.customer-count-review {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-family: 'Beau Rivage';
+}
+
+.para-after-review-heading {
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: gray;
+}
+.div-for-flex-the-two-div {
+  display: flex;
+  gap: 250px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .widith-div-review-rewards {
+    width: 100%;
+    /* margin: 1rem; */
+    margin: 0 0 0 0.5rem;
+  }
+  .flex-div-for-review {
+    display: block;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+  }
+  .div-for-flex-the-two-div {
+    display: block;
+  }
+  .customer-review {
+    margin: 51px 0 0 0;
+    width: 100%;
+  }
+  .customer-review-text {
+    width: 90%;
+    font-size: 14px;
+    margin: auto;
+  }
+  .greater-than-sign-review-card-div {
+    /* margin: -31px 0 -49px 322px;
+    height: 27px;
+    
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #124944f1;
+    cursor: pointer;
+    order: 2;
+    position: relative;
+   
+    left: 17px;
+    bottom: 25px; */
+    display: none;
+  }
+  .less-than-sign-review-card-div {
+    /* margin: -51px -24px;
+    height: 27px;
+    
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #124944f1;
+    order: 1; */
+    display: none;
+  }
+  .background-card {
+    width: 80%;
+    margin: -15px 0 0 35px;
+  }
+  .review-desc {
+    text-align: center;
+  }
+  .review-cards {
+    text-align: center;
+    width: 90%;
+  }
+}

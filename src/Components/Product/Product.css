@@ -1,0 +1,122 @@
+.shopping-product-cards-container {
+  border-radius: 8px;
+  display: block;
+  border: 20px solid white;
+  width: 329px;
+  height: 500px;
+  margin-top: 30px;
+  /* margin: auto; */
+}
+
+.image-for-like-the-product {
+  float: right;
+  cursor: pointer;
+}
+
+.product-info-card-for-selection {
+  /* width: 200px; */
+  height: 320px;
+  display: block;
+  padding: 11px;
+}
+.image-of-the-product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 31px;
+}
+.bottom-section-about-products-details {
+  background-color: #fff;
+  width: 100%;
+}
+.sizes-for-all-dogs-selection p {
+  padding: 1px 0 0 3px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.star-review-for-product {
+  font-size: 90%;
+  color: yellow;
+  border: none;
+}
+.review-price-and-add-to-card-button {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-name-for-selection p {
+  white-space: nowrap;
+  text-overflow: clip;
+  padding: 15px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 215px;
+}
+.container-image-for-add-to-cart {
+  /* background-color: white; */
+  display: flex;
+  justify-content: end;
+}
+.image-for-add-to-cart {
+  border-radius: 50%;
+  border: none;
+  float: right;
+  cursor: pointer;
+  background: none;
+}
+.price-tag-in-review {
+  font-size: 30px;
+}
+
+.image-class-for-respo-height {
+  height: 243px;
+  /* width: 146px; */
+}
+.cart-logo-incontainer-img {
+  height: 40px;
+  width: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .image-class-for-respo-height {
+    height: 182px;
+    width: 146px;
+  }
+  .image-for-add-to-cart {
+    /* border-radius: 50%; */
+    float: right;
+  }
+  .price-tag-in-review {
+    font-size: 19px;
+  }
+  .cart-logo-incontainer-img {
+    height: 19px;
+    width: 15px;
+  }
+  .product-navbar-heading {
+    font-size: 40px;
+    font-family: 'Beau Rivage';
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+  }
+  .cart-logo-incontainer-img {
+    height: 40px;
+    width: 40px;
+  }
+  .image-of-the-product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+  }
+  .product-info-card-for-selection {
+    width: 100%;
+    height: 342px;
+    display: block;
+  }
+}

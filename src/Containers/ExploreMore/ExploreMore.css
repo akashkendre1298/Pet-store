@@ -1,0 +1,91 @@
+.main-container-for-explore-more {
+  background-color: rgba(14, 145, 145, 0.144);
+  padding: 42px 1px 75px 0px;
+  display: flex;
+  justify-content: center;
+}
+.explore-more-btn {
+  background-color: #124944;
+  color: white;
+  height: 55px;
+  width: 130px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.wid-for-explore-more-compo {
+  width: 75em;
+}
+
+.heading-text-and-explore-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+}
+/* 
+.heading-in-explore-more {
+} */
+
+.iduldge-in-our-text-heading {
+  font-size: 13px;
+  /* padding: 0 4px; */
+  padding: 16px 4px;
+  font-weight: 500;
+  color: dimgrey;
+}
+
+.sweet-inspiration-text-heading {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'montserrat';
+}
+
+/* .blog-text-and-image-for-save-the-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 8px;
+}
+.blog-text-and-image-for-save-the-product p {
+  font-size: 13px;
+  font-weight: 400;
+} */
+.explore-product-cards-container {
+  border-radius: 7px;
+}
+
+.call-component-from-explore-more-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .main-container-for-explore-more {
+    width: 100%;
+    overflow-y: scroll;
+  }
+  .wid-for-explore-more-compo {
+    width: 100%;
+  }
+
+  .heading-text-and-explore-button {
+    display: block;
+    text-align: center;
+  }
+  .button-for-explore-more-in-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .explore-more-btn {
+    height: 41px;
+    width: 115px;
+  }
+  .call-component-from-explore-more-cards {
+    display: flex;
+    gap: 2rem;
+    overflow-y: scroll;
+    justify-content: left;
+  }
+}

@@ -1,0 +1,166 @@
+.heading-section-shop-our-insta-and-waggpetfood {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 0;
+  align-items: center;
+}
+
+.header-text-insta-shop p {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Beau Rivage';
+}
+.wid-for-cards {
+  width: 75em;
+}
+
+.follow-us-text-insta-shop p {
+  font-size: 14px;
+  padding: 16px 0px;
+  font-family: 'Beau Rivage';
+  /* font-size: 40px; */
+  font-weight: 400;
+  color: slategrey;
+}
+
+.waggpet-food-text-and-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.waggpet-food-text-and-image img {
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  display: flex;
+  margin: 9px;
+}
+
+.card-for-insta-image-1 img {
+  height: 420px;
+  width: 274px;
+  border-radius: 12px;
+}
+.card-for-insta-image-1 img:hover {
+  height: 420px;
+  width: 274px;
+
+  border-radius: 12px;
+  z-index: -1;
+  opacity: 0.6;
+}
+.card-for-insta-image-2 img {
+  height: 420px;
+  width: 274px;
+
+  border-radius: 12px;
+}
+.card-for-insta-image-3 img {
+  height: 420px;
+  width: 274px;
+
+  border-radius: 12px;
+}
+.card-for-insta-image-4 img {
+  height: 420px;
+  width: 274px;
+
+  border-radius: 12px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.card-for-insta-image-1:hover .overlay {
+  opacity: 1;
+}
+.icon {
+  /* color: white; */
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card-for-insta-image-2 {
+  padding-top: 10rem;
+}
+.card-for-insta-image-3 {
+}
+.card-for-insta-image-4 {
+  padding-top: 10rem;
+}
+
+.image-contain-arrow-right {
+  height: 45px;
+  width: 45px;
+}
+.wag-pet-food-sub-heading p {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.contain-all-insta-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: -4px 0;
+  gap: 10px;
+}
+.main-container-insta-cards {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .wid-for-cards {
+    width: 100%;
+  }
+  .contain-all-insta-images {
+    display: flex;
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: left;
+    padding: 0 15px;
+  }
+  .heading-section-shop-our-insta-and-waggpetfood {
+    display: block;
+  }
+  .waggpet-food-text-and-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading-section-shop-our-insta-and-waggpetfood {
+    justify-content: center;
+    padding: 34px 15px;
+    align-items: center;
+  }
+  .card-for-insta-image-2 {
+    padding: 0;
+  }
+  .card-for-insta-image-4 {
+    padding: 0;
+  }
+  .follow-us-text-insta-shop p {
+    font-size: 14px;
+    padding: 16px 0px;
+    font-family: 'Beau Rivage';
+    /* font-size: 40px; */
+    font-weight: 400;
+    color: slategrey;
+    justify-content: center;
+    display: flex;
+  }
+}
